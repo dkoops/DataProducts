@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Products Assignment</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Data Products Assignment">
+  <meta name="author" content="dkoops">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Data Products Assignment</h1>
+    <h2>mtcars Analysis</h2>
+    <p>dkoops<br/>student</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Welcome to mtcars Analysis shinyapp.</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This shinyapp was created perform some basic analysis on the mtcars dataset.  The application is made of three tabs which illustrate three basic technics.</p>
+
+<ol>
+<li>Review the dataset</li>
+<li>Check variable correlation</li>
+<li>Preform regression analysis</li>
+</ol>
+
+<p>The app can be found <a href="https://dkoops.shinyapps.io/ShinyApp/">here</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Exploring mtcars Dataset</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The Dataset tab allows you to</p>
+
+<ol>
+<li>Select variables to view</li>
+<li>Sort columns by clicking column heading</li>
+<li>Filter rows by using filter boxes at bottom of table</li>
+<li>Set number of rows to view per page</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Review Variable Correlation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The Correlation tab allows you to select both an X and Y variable which is used to render a correlation value and plot.</p>
+
+<p><iframe src=' assets/fig/unnamed-chunk-1-1.html ' scrolling='no' frameBorder='0' seamless class='rChart polycharts ' id=iframe- corrPlot ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style></p>
+
+<pre><code>Code failed to render chart
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Test Regression Analysis</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The Regression tab allows you to select a dependant variable and choose the predicters you would like to use in your regression analysis.  The resulting Adjusted R-Squared value is shown.</p>
+
+<p>The tab also contains a Step Method lm model for predicting mpg.  It showns the Adjusted R-Squared value for this model.  You can attempt to choose the right predicters for mpg and match the Adgusted R-Squared shown.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Welcome to mtcars Analysis shinyapp.'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Exploring mtcars Dataset'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Review Variable Correlation'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Test Regression Analysis'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
